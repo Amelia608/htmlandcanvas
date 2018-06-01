@@ -1,0 +1,110 @@
+html,body{
+	position: relative;
+	width:100vw;
+	height: 100vh;
+	overflow: hidden;
+	background: #fff;
+}
+.loading-pag{
+	position: relative;
+	top:50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	-moz-transform:translateY(-50%);
+}
+.process-bar{
+	width: 85%;
+	margin:15px auto;
+	background: #99CC66;
+	height: 5px;
+	opacity: 0;
+	position: relative;
+}
+.process-bar span{
+	position:absolute;
+	width: 0;
+	left:0;
+	top:0;
+	height:5px;
+	background: red;
+}
+.loading-txt,.process-txt{
+	color:#009933;
+	font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    opacity:0;
+}
+
+.loading-txt-wp li:nth-child(1){
+	-webkit-animation: fadeInUp 1s 0s forwards;
+	-ms-animation: fadeInUp 1s 0s forwards;
+	-moz-animation: fadeInUp 1s 0s forwards;
+	-o-animation: fadeInUp 1s 0s forwards;
+	animation: fadeInUp 1s 0s forwards;
+}
+.loading-txt-wp li:nth-child(2){
+	-webkit-animation: fadeInUp 1.4s 0s forwards;
+	-ms-animation: fadeInUp 1.4s 0s forwards;
+	-moz-animation: fadeInUp 1.4s 0s forwards;
+	-o-animation: fadeInUp 1.4s 0s forwards;
+	animation: fadeInUp 1.4s 0s forwards;
+}
+.loading-txt-wp li:nth-child(3){
+	-webkit-animation: fadeInUp 1.8s 0s forwards;
+	-ms-animation: fadeInUp 1s 0.8s forwards;
+	-moz-animation: fadeInUp 1s 0.8s forwards;
+	-o-animation: fadeInUp 1s 0.8s forwards;
+	animation: fadeInUp 1s 0.8s forwards;
+}
+.loading-txt-wp li:nth-child(4){
+	-webkit-animation: fadeInUp 2.2s 0s forwards;
+	-ms-animation: fadeInUp 1s 2.2s forwards;
+	-moz-animation: fadeInUp 1s 2.2s forwards;
+	-o-animation: fadeInUp 1s 2.2s forwards;
+	animation: fadeInUp 1s 2.2s forwards;
+}
+.loading-txt-wp li:nth-child(5){
+	-webkit-animation: fadeInUp 2.6s 0s forwards;
+	-ms-animation: fadeInUp 1s 2.6s forwards;
+	-moz-animation: fadeInUp 1s 2.6s forwards;
+	-o-animation: fadeInUp 1s 2.6s forwards;
+	animation: fadeInUp 1s 2.6s forwards;
+}
+.index-main{
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	display: none;
+}
+.index-main .index-bg,.main-choose{
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.go-show-btn{
+	position: absolute;
+    right: 2%;
+    bottom: 12%;
+    display: inline-block;
+    width: 44%;
+}
+.main-choose{
+	background: url(../images/index.jpg) no-repeat center center;
+	background-size:100%;
+}
+.choose-title{
+	color:#99CC66;
+	font-size: 16px;
+	font-weight: 600;
+	margin:20px auto;
+}
+.bg-choose-wp{
+	margin:15px 20px;
+}
+.bg-choose-wp .swiper-slide{
+	background: #FFCC66;
+	font-size: 14px;
+	text-align: center;
+	color:#fff;
+}
